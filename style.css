@@ -1,0 +1,92 @@
+body {
+  font-family: "Rowdies", cursive;
+  margin: 0%;
+}
+section {
+  height: 500px;
+  padding-bottom: 150px;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+  color: #4d5656;
+}
+.span1 {
+  background: -webkit-linear-gradient(red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.span2 {
+  color: orange;
+}
+.flexible-container {
+  display: flex;
+}
+
+.section1 {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.half-width {
+  width: 85%;
+  margin-left: 5%;
+  border-left: 1%;
+  padding-left: 2%;
+  text-align: justify;
+}
+.half-width img {
+  width: 60%;
+  padding-left: 12%;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(black, gray);
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+#x {
+  padding-right: 10%;
+}
+.section2 {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.section3 {
+  background-image: url(images/exp-bg.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.developer {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2%;
+  box-shadow: 5px 5px 40px;
+  border-radius: 10px;
+  text-align: justify;
+}
+#diff1 {
+  border-left: 10px solid;
+  border-image: linear-gradient(green, gray);
+
+  border-image-slice: 1;
+}
+#diff2 {
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, gray);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+}
